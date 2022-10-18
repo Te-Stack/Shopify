@@ -1,0 +1,144 @@
+:root{
+    --Dark-Color: #262737;
+    --Grey-Color: #CCCED7;
+    --White-Color: #FFFFFF;
+    --Yellow-Color: #FFB800;
+    --Footer-Dark: #1b1b27;
+
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Color);
+    color: var(--White-Color);
+}
+
+
+
+.card-column{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+
+}
+
+.card-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.inner-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: var(--Dark-Color);
+    color: var(--White-Color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.footer-dark{
+    background-color: var(--Footer-Dark);
+    padding: 10px 20px;
+    color: var(--White-Color);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-dark > .footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-dark > .footer-icons > .icon{
+    background-color: var(--White-Color);
+    border-radius: 1rem;
+    padding: 1px 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.img{
+    margin: 0 20px 0 0;
+}
+
+.footer h5{
+    color: var(--Yellow-Color);
+}
+
+@media screen and (min-width:1365px) {
+    .card{
+        width: 35rem;
+        height: 150px;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 865px){
+    
+    
+    .card-column{
+        display: flex;
+        flex-direction: column;
+        align-items: space-between;
+    
+    }
+    
+    .card-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .img{
+        margin: 0 5px 0 0;
+    }
+    
+    
+   
+    
+    .inner-row{
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 2px;
+    }
+    
+    .footer{
+        background-color: var(--Dark-Color);
+        color: var(--White-Color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px 20px;
+    }
+    
+    .footer-dark{
+        background-color: var(--Footer-Dark);
+        padding: 10px 20px;
+        color: var(--White-Color);
+    }
+
+}
+
+/* Customization Page */
+.customization{
+    display: flex;
+    justify-content: space-between;
+}
