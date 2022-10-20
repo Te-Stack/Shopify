@@ -1,0 +1,76 @@
+:root{
+    --Dark-Color: #262737;
+    --Grey-Color: #CCCED7;
+    --White-Color: #FFFFFF;
+    --Yellow-Color: #FFB800;
+    --Footer-Dark: #1b1b27;
+
+
+}
+
+
+
+
+.footer{
+    background-color: var(--Dark-Color);
+    color: var(--White-Color);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.footer-dark{
+    background-color: var(--Footer-Dark);
+    padding: 10px 20px;
+    color: var(--White-Color);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-dark > .footer-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-dark > .footer-icons > .icon{
+    background-color: var(--White-Color);
+    border-radius: 1rem;
+    padding: 1px 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.img{
+    margin: 0 20px 0 0;
+}
+
+.footer h5{
+    color: var(--Yellow-Color);
+}
+
+
+
+
+@media only screen and (max-width: 865px){
+    
+    
+    
+
+   
+    .footer{
+        background-color: var(--Dark-Color);
+        color: var(--White-Color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 20px 20px;
+    }
+    
+    .footer-dark{
+        background-color: var(--Footer-Dark);
+        padding: 10px 20px;
+        color: var(--White-Color);
+    }
+
+}
