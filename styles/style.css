@@ -142,3 +142,24 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/* Custom BTN */
+.custombtn1{
+    border: 2px solid var(--Dark-Color);
+    color: var(--Dark-Color);
+    background-color: var(--White-Color);
+    padding: 12px 48px;
+    font-weight: bold;
+}
+.custombtn2{
+    border: 2px solid var(--Dark-Color);
+    color: var(--Dark-Color);
+    background-color: var(--White-Color);
+    padding: 12px 22px;
+    font-weight: bold;
+}
+
+.custombtn1:hover, .custombtn2:hover{
+    color: var(--White-Color);
+    background-color: var(--Dark-Color);
+}
